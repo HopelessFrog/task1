@@ -36,7 +36,7 @@
 
         </StackPanel>
         <Canvas ZIndex="0" x:Name="canvas" Background="White" MouseLeftButtonDown="Canvas_MouseLeftButtonDown">
-            <Polygon x:Name="Point" Points="{Binding RPoint}" Stroke="Black" StrokeThickness="3" />
+            <Ellipse x:Name="Point" Width="3" Height="3" Canvas.Left="{Binding StartPoint.X}" Canvas.Top="{Binding StartPoint.Y}" Stroke="Black" StrokeThickness="3" />
             <Polygon x:Name="Rhombus" Points="{Binding Points}" Stroke="Black" Fill="Transparent" />
         </Canvas>
 
