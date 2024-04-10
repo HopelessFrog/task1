@@ -18,8 +18,8 @@ public partial class RhombusViewModel : ObservableObject
     [ObservableProperty] private string cordinates = "";
     [ObservableProperty] private double diagonal1 = 100;
     [ObservableProperty] private double diagonal2 = 150;
-    [ObservableProperty] private PointCollection points = new();
     [ObservableProperty] private float scale = 1;
+    [ObservableProperty] private PointCollection points = new();
 
     [ObservableProperty] private Point startPoint;
 
